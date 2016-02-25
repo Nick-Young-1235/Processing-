@@ -14,8 +14,8 @@ void draw() {
   //red button
   fill(255, 0, 0);
   rect (0,0,20,20);
-  //black button
-  fill(0,0,0);
+  //blue button
+  fill(0,0,255);
   rect(20, 0, 20, 20);
   //clear screen button
   fill(255);
@@ -37,7 +37,7 @@ void draw() {
       paintColor = color(255, 0, 0);
     }
     if(mouseX < 40 && mouseX >20 && mouseY <20 && mouseY >0){
-      paintColor = color(0, 0, 0);
+      paintColor = color(0, 0, 255);
     }
     if(mouseX < 60 && mouseX >40 && mouseY <20 && mouseY >0){
       background(255);
